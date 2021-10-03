@@ -1,0 +1,255 @@
+@charset "UTF-8";
+/* Body */
+body {
+	font-family: Arial;/*source-sans-pro */
+	background-color: #f2f2f2;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	font-style: normal;
+	font-weight: 200;
+}
+/* Container */
+.container {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 1000px;
+	background-color: #FFFFFF;
+}
+/* Navigation */
+header {
+	width: 100%;
+	height: 5%;
+	background-color: #1981C1;
+	border-bottom: 
+}
+.logo {
+	color: #fff;
+	font-weight: bold;
+	text-align: undefined;
+	width: 30%;
+	float: left;
+	margin-top: 15px;
+	margin-left: 25px;
+	letter-spacing: 4px;
+}
+nav {
+	float: left;
+	width: 50%;
+	text-align: left;
+	margin-right: 5px;
+}
+header nav ul {
+	list-style: none;
+	float: right;
+}
+nav ul li {
+	float: left;
+	color: #FFFFFF;
+	font-size: 14px;
+	text-align: left;
+	margin-right: 25px;
+	letter-spacing: 0px;
+	transition: all 0.3s linear;
+}
+ul li a {
+	color: #FFFFFF;
+	text-decoration: none;
+}
+ul li:hover a {
+	color: #00CCFF;
+}
+.main_header {
+	color: #1981C1;
+	text-align: left;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	letter-spacing: 0px;
+        font-weight: bold;
+}
+/* MainSection */
+.main {
+	background-color: #fff;
+	padding-top: 50px;
+        padding-left: 15px;
+	padding-bottom: 150px;
+}
+
+
+.button {
+	width: 200px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	padding-top: 15px;
+	padding-right: 2px;
+	padding-bottom: 15px;
+	padding-left: 2px;
+	text-align: center;
+	vertical-align: left;
+	border-radius: 10px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: 0px;
+	border: 2px solid #FF6600;
+	color: #FF6600;
+	transition: all 0.3s linear;
+}
+
+.button:hover {
+	background-color: #FF6600;
+	color: #FFFFFF;
+	cursor: pointer;
+}
+
+.buttonSM {
+	background-color:#7030A0;
+	width: 100px;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 40px;
+	padding-top: 15px;
+	padding-right: 2px;
+	padding-bottom: 15px;
+	padding-left: 2px;
+	text-align: center;
+	vertical-align: left;
+	border-radius: 10px;
+	font-weight: bold;
+	letter-spacing: 0px;
+	border: 0px solid #FF6600;
+	color: #FFFFFF;
+	transition: all 0.3s linear;
+}
+
+.buttonSM:hover {
+	background-color: #363636;
+	color: #FFFFFF;
+	cursor: pointer;
+
+}
+
+.buttonFB {
+	background-color: #1B3BC3;
+} /* Facebook*/
+
+.buttonYT {
+	background-color: #FF0000;
+} /* Youtube*/ 
+
+
+
+
+.banner {
+	background-color: #1981C1;
+	height: 300px;
+	
+}
+.footer {
+	color: #FFFFFF;
+	text-align: left;
+	padding-right: 100px;
+	padding-left: 20px;
+	padding-top: 20px;
+	letter-spacing: 0px;
+	margin-top: 0px;
+}
+.footer_description {
+	color: #FFFFFF;
+	text-align: left;
+	padding-left: 20px;
+	width: 300px;
+	font-weight: bold;
+	
+}
+
+
+.hidden {
+	display: none;
+}
+
+/* Mobile */
+@media (max-width: 320px) {
+.logo {
+	width: 100%;
+	text-align: center;
+	margin-top: 13px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	display: none;
+}
+header nav ul {
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+}
+
+.container header nav {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	float: none;
+	overflow: auto;
+	display: inline-block;
+	background: #52bad5;
+}
+header nav ul {
+	padding: 0px;
+	float: none;
+}
+nav ul li {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	width: 100%;
+	text-align: center;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+.text_column {
+	width: 100%;
+	text-align: left;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+
+.text_column {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+.banner {
+	margin-top: 0px;
+	padding-top: 0px;
+}
+}
